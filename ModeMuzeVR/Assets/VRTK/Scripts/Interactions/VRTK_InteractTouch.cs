@@ -409,7 +409,6 @@ namespace VRTK
             if (touchedObject != null)
             {
                 VRTK_InteractableObject touchedObjectScript = touchedObject.GetComponent<VRTK_InteractableObject>();
-
                 //If it's being grabbed by the current touching object then it hasn't stopped being touched.
                 if (touchedObjectScript != null && touchedObjectScript.GetGrabbingObject() != gameObject)
                 {

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 53f4f0e354576334e90b86bd95b141ca
+timeCreated: 1507124886
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fenwick Woodtype
+  fontNames:
+  - Fenwick Woodtype
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -131,6 +131,16 @@ ModelImporter:
     4300014: test:Pattern2D_3805018
     4300016: test:Mesh
     4300018: test:Pattern2D_3805002
+    6400000: pasted__pasted__pasted__pCube1
+    6400002: test:Mesh
+    6400004: test:Mesh1
+    6400006: test:Mesh2
+    6400008: test:Mesh3
+    6400010: test:Mesh4
+    6400012: test:Mesh5
+    6400014: test:Pattern2D_3805002
+    6400016: test:Pattern2D_3805017
+    6400018: test:Pattern2D_3805018
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -161,7 +171,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1

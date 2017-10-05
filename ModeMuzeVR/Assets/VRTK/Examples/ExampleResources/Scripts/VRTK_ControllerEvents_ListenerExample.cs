@@ -4,6 +4,10 @@
 
     public class VRTK_ControllerEvents_ListenerExample : MonoBehaviour
     {
+        public GameObject[] handles;
+        public GameObject clothing;
+        public GameObject tutorial;
+
         private void Start()
         {
             if (GetComponent<VRTK_ControllerEvents>() == null)
@@ -120,10 +124,55 @@
         {
             DebugLogger(VRTK_ControllerReference.GetRealIndex(e.controllerReference), "TRIGGER", "axis changed", e);
         }
-
+        //Tutorial events
         private void DoGripPressed(object sender, ControllerInteractionEventArgs e)
         {
             DebugLogger(VRTK_ControllerReference.GetRealIndex(e.controllerReference), "GRIP", "pressed", e);
+            //switch (tutorial.GetComponent<Tutorial>().GetTutorialIndex())
+            //{
+            //    case 1:
+            //        if(tutorial == e.controllerReference.actual.gameObject)
+            //        {
+            //            Debug.Log(" TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INSIDE INDEX !" );
+
+            //            tutorial.GetComponent<Tutorial>().IncrementTutorialIndex();
+
+            //        }
+            //        break;
+            //    case 2:
+            //        for (int i = 0; i < handles.Length; i++)
+            //        {
+            //            if (handles[i] == e.controllerReference.actual.gameObject)
+            //            {
+            //                Debug.Log("GRAPPED A HANDLE");
+            //                tutorial.GetComponent<Tutorial>().IncrementTutorialIndex();
+            //            }
+            //        }
+            //        break;
+            //    case 3:
+            //        if(clothing == e.controllerReference.actual.gameObject)
+            //        {
+            //            tutorial.GetComponent<Tutorial>().IncrementTutorialIndex();
+            //        }
+            //        break;
+            //    default:
+            //        Debug.Log("KAPOTTTTTTTTTTTT");
+            //        break;
+            //}
+            if (tutorial.GetComponent<Tutorial>().GetTutorialIndex() == 1)
+            {
+                
+                Debug.Log(e.controllerReference.model.gameObject);
+                
+                if (GameObject.ReferenceEquals(tutorial, e.controllerReference.actual.gameObject))
+                {
+                    Debug.Log(" TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INSIDE INDEX !!!!!!!!!!!!!!!!!!");
+
+                    tutorial.GetComponent<Tutorial>().IncrementTutorialIndex();
+
+                }
+            }
+        
         }
 
         private void DoGripReleased(object sender, ControllerInteractionEventArgs e)

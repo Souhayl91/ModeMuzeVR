@@ -204,6 +204,7 @@ namespace VRTK
         protected Vector3 previousLocalScale = Vector3.zero;
         protected List<GameObject> currentIgnoredColliders = new List<GameObject>();
         protected bool startDisabled = false;
+    
 
         public virtual void OnInteractableObjectTouched(InteractableObjectEventArgs e)
         {
@@ -308,6 +309,34 @@ namespace VRTK
         /// <returns>Returns `true` if the object is currently being grabbed.</returns>
         public virtual bool IsGrabbed(GameObject grabbedBy = null)
         {
+            if (this.gameObject == GameObject.Find("Tutorial"))
+            {
+                Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
+                if(tutorial.GetTutorialIndex() == 1)
+                {
+                    tutorial.IncrementTutorialIndex();
+                }
+                Debug.Log("Manual grabbed");
+            }
+            if (this.gameObject == GameObject.Find("Clothing"))
+            {
+
+                Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
+                if (tutorial.GetTutorialIndex() == 2)
+                {
+                    tutorial.IncrementTutorialIndex();
+                }
+                Debug.Log("Clothing grabbed");
+            }
+            if (this.gameObject == GameObject.Find("Clothing"))
+            {
+                Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
+                if (tutorial.GetTutorialIndex() == 3)
+                {
+                    tutorial.IncrementTutorialIndex();
+                }
+                Debug.Log("Clothing grabbed");
+            }
             if (grabbingObjects.Count > 0 && grabbedBy != null)
             {
                 return (grabbingObjects.Contains(grabbedBy));
@@ -390,6 +419,8 @@ namespace VRTK
         [Obsolete("`VRTK_InteractableObject.Grabbed(GameObject currentGrabbingObject)` has been replaced with `VRTK_InteractableObject.Grabbed(VRTK_InteractGrab currentGrabbingObject)`. This method will be removed in a future version of VRTK.")]
         public virtual void Grabbed(GameObject currentGrabbingObject)
         {
+            Debug.Log(currentGrabbingObject);
+           
             Grabbed((currentGrabbingObject != null ? currentGrabbingObject.GetComponent<VRTK_InteractGrab>() : null));
         }
 
