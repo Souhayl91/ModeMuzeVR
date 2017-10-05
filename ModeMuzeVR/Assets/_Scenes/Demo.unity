@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -108,10 +108,6 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &2920247 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 109308, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
-  m_PrefabInternal: {fileID: 151621943}
 --- !u!1 &31469541
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +693,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
@@ -847,10 +843,6 @@ Transform:
   m_Father: {fileID: 798165149}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &266810083 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100002, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
-  m_PrefabInternal: {fileID: 151621943}
 --- !u!1 &348398200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,10 +2187,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f7a04958ed1917143a706f4da54e0d9b, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &786944628 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 113768, guid: 126d619cf4daa52469682f85c1378b4a, type: 2}
-  m_PrefabInternal: {fileID: 151621943}
 --- !u!1 &798165148
 GameObject:
   m_ObjectHideFlags: 0
@@ -3992,6 +3980,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4856616331177342, guid: f7a04958ed1917143a706f4da54e0d9b,
     type: 2}
   m_PrefabInternal: {fileID: 1133597958}
+--- !u!1 &1215970250 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1883185261795400, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386252083}
 --- !u!1 &1273835475
 GameObject:
   m_ObjectHideFlags: 0
@@ -4036,31 +4029,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPopulateObjectReferences: 1
-  actualBoundaries: {fileID: 763472756}
-  actualHeadset: {fileID: 266810083}
-  actualLeftController: {fileID: 2920247}
-  actualRightController: {fileID: 786944628}
-  modelAliasLeftController: {fileID: 0}
-  modelAliasRightController: {fileID: 0}
+  actualBoundaries: {fileID: 1820354756}
+  actualHeadset: {fileID: 1565166571}
+  actualLeftController: {fileID: 1988282366}
+  actualRightController: {fileID: 1340903924}
+  modelAliasLeftController: {fileID: 1866405304}
+  modelAliasRightController: {fileID: 1215970250}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
-    typeName: VRTK.SDK_OculusSystem
+    typeName: VRTK.SDK_SimSystem
     descriptionIndex: 0
   cachedBoundariesSDKInfo:
     baseTypeName: VRTK.SDK_BaseBoundaries
     fallbackTypeName: VRTK.SDK_FallbackBoundaries
-    typeName: VRTK.SDK_OculusBoundaries
+    typeName: VRTK.SDK_SimBoundaries
     descriptionIndex: 0
   cachedHeadsetSDKInfo:
     baseTypeName: VRTK.SDK_BaseHeadset
     fallbackTypeName: VRTK.SDK_FallbackHeadset
-    typeName: VRTK.SDK_OculusHeadset
+    typeName: VRTK.SDK_SimHeadset
     descriptionIndex: 0
   cachedControllerSDKInfo:
     baseTypeName: VRTK.SDK_BaseController
     fallbackTypeName: VRTK.SDK_FallbackController
-    typeName: VRTK.SDK_OculusController
+    typeName: VRTK.SDK_SimController
     descriptionIndex: 0
 --- !u!1001 &1303351525
 Prefab:
@@ -4124,6 +4117,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5769b2026e3d6754bb623614c38acffd, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &1340903924 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1391022766006510, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386252083}
 --- !u!1 &1349273810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4332,7 +4330,7 @@ Prefab:
     - target: {fileID: 224903114965417368, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224587334084441624, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
@@ -4362,11 +4360,11 @@ Prefab:
     - target: {fileID: 224903114965417368, guid: be540b97364be0a4890e39e62ac89ed1,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1000013941130086, guid: be540b97364be0a4890e39e62ac89ed1, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be540b97364be0a4890e39e62ac89ed1, type: 2}
@@ -11879,6 +11877,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547020209}
   m_Mesh: {fileID: 4300006, guid: 2973989e1af6b684f9de7ac18ee0ab69, type: 3}
+--- !u!1 &1565166571 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1587602180963074, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386252083}
 --- !u!1001 &1571717378
 Prefab:
   m_ObjectHideFlags: 0
@@ -12289,6 +12292,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1751612388}
   m_Mesh: {fileID: 4300018, guid: 2973989e1af6b684f9de7ac18ee0ab69, type: 3}
+--- !u!1 &1820354756 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013941130086, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386252083}
 --- !u!1 &1827567727
 GameObject:
   m_ObjectHideFlags: 0
@@ -15702,6 +15710,11 @@ Transform:
   m_Father: {fileID: 819584285}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 19.551}
+--- !u!1 &1866405304 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1384746914293964, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386252083}
 --- !u!1 &1871994989
 GameObject:
   m_ObjectHideFlags: 0
@@ -16155,6 +16168,11 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1988282366 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1538727058887424, guid: be540b97364be0a4890e39e62ac89ed1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1386252083}
 --- !u!1 &1993954400
 GameObject:
   m_ObjectHideFlags: 0
@@ -16198,7 +16216,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1993954400}
   m_LocalRotation: {x: -0, y: -0.023903785, z: -0, w: -0.9997143}
-  m_LocalPosition: {x: -1.027, y: 0.45, z: 1.728}
+  m_LocalPosition: {x: -0.935, y: -0.289, z: 1.728}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1273835476}

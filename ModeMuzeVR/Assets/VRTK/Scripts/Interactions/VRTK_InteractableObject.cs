@@ -309,28 +309,31 @@ namespace VRTK
         /// <returns>Returns `true` if the object is currently being grabbed.</returns>
         public virtual bool IsGrabbed(GameObject grabbedBy = null)
         {
+
+            Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
             if (this.gameObject == GameObject.Find("Tutorial"))
             {
-                Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
                 if(tutorial.GetTutorialIndex() == 1)
                 {
                     tutorial.IncrementTutorialIndex();
                 }
                 Debug.Log("Manual grabbed");
             }
-            if (this.gameObject == GameObject.Find("Clothing"))
-            {
 
-                Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
-                if (tutorial.GetTutorialIndex() == 2)
+            foreach (GameObject item in GameObject.FindGameObjectsWithTag("Handle"))
+            {
+                if(this.gameObject == item)
                 {
-                    tutorial.IncrementTutorialIndex();
+                    if(tutorial.GetTutorialIndex() == 2)
+                    {
+                        tutorial.IncrementTutorialIndex();
+                    }
                 }
-                Debug.Log("Clothing grabbed");
+                Debug.Log("Handle grabbed");
             }
+            
             if (this.gameObject == GameObject.Find("Clothing"))
             {
-                Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
                 if (tutorial.GetTutorialIndex() == 3)
                 {
                     tutorial.IncrementTutorialIndex();
