@@ -42,7 +42,8 @@ public class GarmentSnapZone : VRTK.VRTK_SnapDropZone {
 
                 if(collider.gameObject == garment)
                 {
-                    storyLine.SetActive(true);
+                    storyLine.GetComponent<UnityEngine.Playables.PlayableDirector>().Play();
+
                 }
 
                 transitionInPlaceRoutine = StartCoroutine(UpdateTransformDimensions(ioCheck, highlightContainer, newLocalScale, snapDuration));

@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 public class Storyline : MonoBehaviour {
-    public Animator[] animators;
-    private bool startStory;
-    private GameObject _storySnapZone;
 	// Use this for initialization
 	void Start () {
-        StartStory();
+                    GetComponent<PlayableDirector>().Stop();
+
+
     }
 
     private void Update()
@@ -17,6 +16,5 @@ public class Storyline : MonoBehaviour {
 
     private void StartStory()
     {
-        GetComponent<PlayableDirector>().Play();
     }
 }
