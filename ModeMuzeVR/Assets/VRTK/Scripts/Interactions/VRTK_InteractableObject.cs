@@ -313,32 +313,29 @@ namespace VRTK
             Tutorial tutorial = GameObject.Find("Tutorial").GetComponent<Tutorial>();
             if (this.gameObject == GameObject.Find("Tutorial"))
             {
-                if(tutorial.GetTutorialIndex() == 1)
+                if (tutorial.GetTutorialIndex() == 1)
                 {
                     tutorial.IncrementTutorialIndex();
                 }
-                Debug.Log("Manual grabbed");
             }
 
             foreach (GameObject item in GameObject.FindGameObjectsWithTag("Handle"))
             {
-                if(this.gameObject == item)
+                if (this.gameObject == item)
                 {
-                    if(tutorial.GetTutorialIndex() == 2)
+                    if (tutorial.GetTutorialIndex() == 2)
                     {
                         tutorial.IncrementTutorialIndex();
                     }
                 }
-                Debug.Log("Handle grabbed");
             }
-            
+
             if (this.gameObject == GameObject.Find("Clothing"))
             {
                 if (tutorial.GetTutorialIndex() == 3)
                 {
                     tutorial.IncrementTutorialIndex();
                 }
-                Debug.Log("Clothing grabbed");
             }
             if (grabbingObjects.Count > 0 && grabbedBy != null)
             {

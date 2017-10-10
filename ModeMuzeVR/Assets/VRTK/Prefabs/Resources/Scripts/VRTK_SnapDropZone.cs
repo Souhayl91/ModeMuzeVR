@@ -5,6 +5,7 @@ namespace VRTK
     using System.Collections;
     using System.Collections.Generic;
     using Highlighters;
+    using Obi;
 
     /// <summary>
     /// Event Payload
@@ -118,6 +119,7 @@ namespace VRTK
         protected const string HIGHLIGHT_OBJECT_NAME = "HighlightObject";
         protected const string HIGHLIGHT_EDITOR_OBJECT_NAME = "EditorHighlightObject";
 
+        public bool storyStarted = false;
         public virtual void OnObjectEnteredSnapDropZone(SnapDropZoneEventArgs e)
         {
             if (ObjectEnteredSnapDropZone != null)
@@ -512,7 +514,14 @@ namespace VRTK
                     {
                         CreatePermanentClone();
                     }
+                    
+                    var script = currentSnappedObject.GetComponent<ObiCloth>();
+                    if (script != null)
+                    {
+                        script.enabled = false;
+                    }
 
+                    
                     transitionInPlaceRoutine = StartCoroutine(UpdateTransformDimensions(ioCheck, highlightContainer, newLocalScale, snapDuration));
 
                     ioCheck.ToggleSnapDropZone(this, true);

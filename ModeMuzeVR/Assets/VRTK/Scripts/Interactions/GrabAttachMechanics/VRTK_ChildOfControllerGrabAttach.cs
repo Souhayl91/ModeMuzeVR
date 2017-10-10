@@ -2,6 +2,7 @@
 namespace VRTK.GrabAttachMechanics
 {
     using UnityEngine;
+    using Obi;
 
     /// <summary>
     /// The Child Of Controller Grab Attach script is used to make the grabbed object a child of the grabbing object upon grab.
@@ -30,6 +31,11 @@ namespace VRTK.GrabAttachMechanics
             {
                 SnapObjectToGrabToController(givenGrabbedObject);
                 grabbedObjectScript.isKinematic = true;
+                var script = givenGrabbedObject.GetComponent<ObiCloth>();
+                if (script != null)
+                {
+                    script.enabled = true;
+                }
                 return true;
             }
             return false;
