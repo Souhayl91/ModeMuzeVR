@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeInFrames: 1
-  timeAreaShownRange: {x: 30.33209, y: 134.83714}
+  timeAreaShownRange: {x: -0.72376275, y: 41.32685}
   showAudioWaveform: 1
   trackHeight: 30
   trackScale: 1
@@ -57,13 +57,13 @@ MonoBehaviour:
     inlineAnimationCurveHeight: 100
   - collapsed: 0
     showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
+    inlineAnimationCurveHeight: 105
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100
   - collapsed: 0
     showInlineCurves: 0
-    inlineAnimationCurveHeight: 100
+    inlineAnimationCurveHeight: 98
   - collapsed: 0
     showInlineCurves: 0
     inlineAnimationCurveHeight: 100

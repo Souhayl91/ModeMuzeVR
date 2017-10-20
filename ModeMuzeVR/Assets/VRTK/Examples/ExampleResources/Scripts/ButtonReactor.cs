@@ -2,14 +2,13 @@
 {
     using UnityEngine;
     using UnityEventHelper;
+    using UnityEngine.Playables;
 
     public class ButtonReactor : MonoBehaviour
     {
-        public GameObject go;
-        public Transform dispenseLocation;
-
+       
         private VRTK_Button_UnityEvents buttonEvents;
-
+        public PlayableDirector tutorialTimeline;
         private void Start()
         {
             buttonEvents = GetComponent<VRTK_Button_UnityEvents>();
@@ -22,10 +21,11 @@
 
         private void handlePush(object sender, Control3DEventArgs e)
         {
-            VRTK_Logger.Info("Pushed");
-
-            GameObject newGo = (GameObject)Instantiate(go, dispenseLocation.position, Quaternion.identity);
-            Destroy(newGo, 10f);
+            Destroy(GetComponent<VRTK_Button>());
+            Destroy(GetComponent<ConstantForce>());
+            Destroy(GetComponent<ConfigurableJoint>());
+            Destroy(GetComponent<Rigidbody>());
+            tutorialTimeline.Play();
         }
     }
 }

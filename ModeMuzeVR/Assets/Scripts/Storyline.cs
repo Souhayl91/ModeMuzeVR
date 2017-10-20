@@ -9,12 +9,4 @@ public class Storyline : MonoBehaviour {
 
 
     }
-
-    private void Update()
-    {
-    }
-
-    private void StartStory()
-    {
-    }
 }
