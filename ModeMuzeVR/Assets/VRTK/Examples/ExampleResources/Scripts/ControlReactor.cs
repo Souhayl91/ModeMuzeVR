@@ -2,12 +2,14 @@
 {
     using UnityEngine;
     using UnityEventHelper;
+    using UnityEngine.Playables;
 
     public class ControlReactor : MonoBehaviour
     {
-        public TextMesh go;
-
         private VRTK_Control_UnityEvents controlEvents;
+        public PlayableDirector tutorialTimeline;
+        //public delegate void OnTimePassed();
+        //public static event OnTimePassed PauseTimeline;
 
         private void Start()
         {
@@ -26,10 +28,10 @@
             {
                 Color newColor = new Color(0, 1, 0);
                 GetComponent<MeshRenderer>().material.color = newColor;
-
-
-                //TO-DO: Trigger 2nd tutorial
+                tutorialTimeline.playableGraph.GetRootPlayable(0).SetSpeed(0);
             }
         }
+
+
     }
 }

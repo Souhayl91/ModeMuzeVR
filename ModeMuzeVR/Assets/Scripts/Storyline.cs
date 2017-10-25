@@ -5,7 +5,7 @@ using UnityEngine.Playables;
 public class Storyline : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
-                    GetComponent<PlayableDirector>().Stop();
+        //GetComponent<PlayableDirector>().Play();
 
 
     }

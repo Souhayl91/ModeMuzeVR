@@ -26,6 +26,7 @@
             Destroy(GetComponent<ConfigurableJoint>());
             Destroy(GetComponent<Rigidbody>());
             tutorialTimeline.Play();
+            Debug.Log("PUSHHH");
         }
     }
 }
