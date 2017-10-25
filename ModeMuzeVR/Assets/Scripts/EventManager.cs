@@ -17,7 +17,7 @@ public class EventManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(tutorialTimeline.time >= 20 && _isPaused == false )
+		if(tutorialTimeline.time >= 12 && _isPaused == false )
         {
             if(onPauseTimeline != null)
             {
@@ -30,6 +30,12 @@ public class EventManager : MonoBehaviour {
     {
         _isPaused = true;
         tutorialTimeline.playableGraph.GetRootPlayable(0).SetSpeed(0);
+
+        //GameObject lever = GameObject.Find("Lever");
+        //Destroy(lever.GetComponent<VRTK.VRTK_Lever>());
+        //Destroy(lever.GetComponent<ConstantForce>());
+        //Destroy(lever.GetComponent<ConfigurableJoint>());
+        //Destroy(lever.GetComponent<Rigidbody>());
     }
 
     void ResumeTimeline()

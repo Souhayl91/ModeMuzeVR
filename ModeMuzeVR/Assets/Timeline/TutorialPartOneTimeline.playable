@@ -47,7 +47,6 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -99,7 +98,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: 0
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -131,22 +129,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
---- !u!114 &114061246447755858
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: AnimationPlayableAsset of SlideDoorAnim
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: 29d4c8b24a9e13e4c82c7256f9e32260, type: 2}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UseTrackMatchFields: 0
-  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114073243829227570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -162,7 +145,6 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -214,7 +196,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: 0
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -246,6 +227,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114248891542729362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -261,17 +243,16 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 15.166666666666668
+  - m_Start: 8.8
     m_ClipIn: 0
-    m_Asset: {fileID: 114389052874296582}
+    m_Asset: {fileID: 114522564404089566}
     m_UnderlyingAsset: {fileID: 7400000, guid: c180dce76dcf29641bcd01155cd42b76, type: 2}
-    m_Duration: 2.4833333333333334
+    m_Duration: 3
     m_ParentID: 0
     m_TimeScale: 1
     m_BlendCurve:
@@ -305,7 +286,19 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -313,14 +306,13 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -1639512363
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 5.199999999999999
-    m_PreExtrapolationTime: 15.166666666666668
+    m_PostExtrapolationTime: 3
+    m_PreExtrapolationTime: 8.8
     m_DisplayName: LeverUp
-  - m_Start: 22.85
+  - m_Start: 14.8
     m_ClipIn: 0
     m_Asset: {fileID: 114563822597752096}
     m_UnderlyingAsset: {fileID: 7400000, guid: 4ce1ab6d4b17e6442b610a868e10d6ce, type: 2}
@@ -346,19 +338,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -366,7 +346,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -1639512365
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -398,6 +377,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114273319485395410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -413,7 +393,6 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -443,13 +422,12 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 97
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 24.833333333333332
+  - m_Start: 19.566666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 114772437553569288}
     m_UnderlyingAsset: {fileID: 7400000, guid: e218aae4d48d54b4f8579022b9d05131, type: 2}
@@ -507,12 +485,11 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -1639512361
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 24.833333333333332
+    m_PreExtrapolationTime: 19.566666666666666
     m_DisplayName: ClosetsTop
   m_OpenClipPreExtrapolation: 0
   m_OpenClipPostExtrapolation: 0
@@ -523,22 +500,6 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &114389052874296582
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: AnimationPlayableAsset of LeverUp
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: c180dce76dcf29641bcd01155cd42b76, type: 2}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UseTrackMatchFields: 0
-  m_MatchTargetFields: 63
 --- !u!114 &114401398615845390
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -555,6 +516,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114440387425977204
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -570,13 +532,12 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 24.833333333333332
+  - m_Start: 19.566666666666666
     m_ClipIn: 0
     m_Asset: {fileID: 114751145184131710}
     m_UnderlyingAsset: {fileID: 7400000, guid: 305e731818e8c57468291e620c02efd4, type: 2}
@@ -634,12 +595,11 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -1639512368
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 24.833333333333332
+    m_PreExtrapolationTime: 19.566666666666666
     m_DisplayName: ClosetsBottom
   m_OpenClipPreExtrapolation: 0
   m_OpenClipPostExtrapolation: 0
@@ -650,6 +610,23 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
+--- !u!114 &114522564404089566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: AnimationPlayableAsset of LeverUp
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 7400000, guid: c180dce76dcf29641bcd01155cd42b76, type: 2}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_UseTrackMatchFields: 0
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114563822597752096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -666,6 +643,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114622935369206098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -681,7 +659,6 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -745,7 +722,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: 0
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -761,22 +737,6 @@ MonoBehaviour:
   m_Position: {x: 0, y: 0, z: 0}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &114651545503631380
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: AnimationPlayableAsset of SlideDoorCloseAnim
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: fcdf819f3aa61f34ab85f9b63c813de7, type: 2}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UseTrackMatchFields: 0
-  m_MatchTargetFields: 63
 --- !u!114 &114695367004025710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -793,6 +753,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114706090642469612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -809,6 +770,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114714857041996740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -825,6 +787,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114719439118154488
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -841,6 +804,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114751145184131710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -857,6 +821,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114768593783355178
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -873,6 +838,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114772437553569288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -889,6 +855,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114786724368783872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -904,13 +871,12 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 27.183333333334666
+  - m_Start: 21.916666666668
     m_ClipIn: 0
     m_Asset: {fileID: 114044884983546860}
     m_UnderlyingAsset: {fileID: 7400000, guid: 5694408956c80a94b85af40ca8a335da, type: 2}
@@ -968,12 +934,11 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -1639512367
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 27.183333333334666
+    m_PreExtrapolationTime: 21.916666666668
     m_DisplayName: ClosetsLeft
   m_OpenClipPreExtrapolation: 0
   m_OpenClipPostExtrapolation: 0
@@ -999,13 +964,12 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children: []
   m_Clips:
-  - m_Start: 27.183333333334666
+  - m_Start: 21.916666666668
     m_ClipIn: 0
     m_Asset: {fileID: 114401398615845390}
     m_UnderlyingAsset: {fileID: 7400000, guid: fcfa48a4dde7dae4ca47dceac519b47c, type: 2}
@@ -1063,12 +1027,11 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -1639512366
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 27.183333333334666
+    m_PreExtrapolationTime: 21.916666666668
     m_DisplayName: ClosetsRight
   m_OpenClipPreExtrapolation: 0
   m_OpenClipPostExtrapolation: 0
@@ -1095,6 +1058,7 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
 --- !u!114 &114898263368342572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1110,7 +1074,6 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1162,7 +1125,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: 0
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -1193,7 +1155,6 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 94
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1257,7 +1218,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: 0
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -1322,96 +1282,13 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: 0
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 4.25
+    m_PostExtrapolationTime: 3.883333333333333
     m_PreExtrapolationTime: 0
     m_DisplayName: SlideDoorCloseAnim
-  - m_Start: 12.15
-    m_ClipIn: 0
-    m_Asset: {fileID: 114061246447755858}
-    m_UnderlyingAsset: {fileID: 7400000, guid: 29d4c8b24a9e13e4c82c7256f9e32260, type: 2}
-    m_Duration: 3.0166666666666666
-    m_ParentID: 0
-    m_TimeScale: 1
-    m_BlendCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ParentTrack: {fileID: 114919420312408002}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_ID: 0
-    m_Recordable: 0
-    m_PostExtrapolationMode: 1
-    m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 2.4833333333333343
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SlideDoorAnim
-  - m_Start: 17.650000000000002
-    m_ClipIn: 0
-    m_Asset: {fileID: 114651545503631380}
-    m_UnderlyingAsset: {fileID: 7400000, guid: fcdf819f3aa61f34ab85f9b63c813de7, type: 2}
-    m_Duration: 2.183333333333333
-    m_ParentID: 0
-    m_TimeScale: 1
-    m_BlendCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_ParentTrack: {fileID: 114919420312408002}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_ID: 0
-    m_Recordable: 0
-    m_PostExtrapolationMode: 1
-    m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SlideDoorCloseAnim
-  - m_Start: 19.833333333333336
+  - m_Start: 11.783333333333333
     m_ClipIn: 0
     m_Asset: {fileID: 114695367004025710}
     m_UnderlyingAsset: {fileID: 7400000, guid: 29d4c8b24a9e13e4c82c7256f9e32260, type: 2}
@@ -1445,14 +1322,13 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -988452389
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 2.5794962962468446
+    m_PostExtrapolationTime: 2.5
     m_PreExtrapolationTime: 0
     m_DisplayName: SlideDoorAnim
-  - m_Start: 25.429496296246846
+  - m_Start: 17.3
     m_ClipIn: 0
     m_Asset: {fileID: 114864333853339920}
     m_UnderlyingAsset: {fileID: 7400000, guid: fcdf819f3aa61f34ab85f9b63c813de7, type: 2}
@@ -1486,7 +1362,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: -1344275233
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -1517,7 +1392,6 @@ MonoBehaviour:
   m_Muted: 0
   m_Soloed: 0
   m_Height: 0
-  m_InlineAnimationCurveHeight: 100
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -1581,7 +1455,6 @@ MonoBehaviour:
     m_BlendOutCurveMode: 0
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
-    m_ID: 0
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
@@ -1613,3 +1486,4 @@ MonoBehaviour:
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
