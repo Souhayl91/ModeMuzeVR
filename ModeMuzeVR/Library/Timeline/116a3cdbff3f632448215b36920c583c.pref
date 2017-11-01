@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1890111309, guid: 7668179ede524d6396c8b7d84461ea29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeInFrames: 1
+  timeAreaShownRange: {x: -0.72376275, y: 41.32685}
+  showAudioWaveform: 1
+  trackHeight: 30
+  trackScale: 1
+  m_Keys:
+  - {fileID: 114676665208148652, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114739555299557720, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114567421202405256, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114807814487478412, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114869048646559978, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114494672006370036, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114819109626729312, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114395221311669000, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114199448113730476, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114168284748430306, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114095205983139330, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114940305203664776, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114651486579835644, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114248109992397924, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114226330411471774, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114145503909218236, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114198083788108686, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114466532312534088, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114459089946262786, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114615107290140704, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114633824352368056, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114006491425420124, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114209400875156196, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114343257988690586, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114061787677682992, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114931388459175594, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114205938153600434, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114204610665740184, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114637411564409388, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114364221836682976, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  - {fileID: 114053826904895226, guid: 116a3cdbff3f632448215b36920c583c, type: 2}
+  m_Vals:
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 105
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 98
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 60
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 142
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 122
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100
+  - collapsed: 0
+    showInlineCurves: 0
+    inlineAnimationCurveHeight: 100

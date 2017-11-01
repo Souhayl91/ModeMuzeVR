@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: e09b1e7251461e74982ce9288c67f190
+timeCreated: 1506606773
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: aiSkyDomeLight1
+    100002: Basis
+    100004: Binnenkant
+    100006: Binnenkant 1
+    100008: Binnenkant 2
+    100010: Binnenkant 3
+    100012: Binnenkant1
+    100014: Binnenkant1 1
+    100016: Binnenkant1 2
+    100018: Binnenkant1 3
+    100020: //RootNode
+    100022: Deur
+    100024: Deur1
+    100026: Deur_links
+    100028: Deur_rechts
+    100030: Deuren
+    100032: Hendel
+    100034: Hendel1
+    100036: Hendels1
+    100038: Kast
+    100040: Omvang_metaal
+    100042: Omvang_metaal 1
+    100044: Omvang_metaal 2
+    100046: Omvang_metaal 3
+    100048: pCube3
+    100050: pCube3 1
+    100052: pCube3 2
+    100054: pCube3 3
+    100056: pCube4
+    100058: pCube4 1
+    100060: pCube4 2
+    100062: pCube4 3
+    100064: place3dTexture1
+    100066: place3dTexture2
+    100068: place3dTexture3
+    100070: Planken
+    100072: Rail
+    100074: Rail1
+    100076: Wiel
+    100078: Wiel 1
+    100080: Wiel 2
+    100082: Wiel 3
+    100084: Wiel 4
+    100086: Wiel3
+    100088: Wiel3 1
+    100090: Wiel3 2
+    100092: Wiel3 3
+    100094: Wiel4
+    100096: Wiel4 1
+    100098: Wiel4 2
+    100100: Wiel4 3
+    100102: Wiel5
+    100104: Wiel6
+    100106: Wiel7
+    100108: Wielen
+    400000: aiSkyDomeLight1
+    400002: Basis
+    400004: Binnenkant
+    400006: Binnenkant 1
+    400008: Binnenkant 2
+    400010: Binnenkant 3
+    400012: Binnenkant1
+    400014: Binnenkant1 1
+    400016: Binnenkant1 2
+    400018: Binnenkant1 3
+    400020: //RootNode
+    400022: Deur
+    400024: Deur1
+    400026: Deur_links
+    400028: Deur_rechts
+    400030: Deuren
+    400032: Hendel
+    400034: Hendel1
+    400036: Hendels1
+    400038: Kast
+    400040: Omvang_metaal
+    400042: Omvang_metaal 1
+    400044: Omvang_metaal 2
+    400046: Omvang_metaal 3
+    400048: pCube3
+    400050: pCube3 1
+    400052: pCube3 2
+    400054: pCube3 3
+    400056: pCube4
+    400058: pCube4 1
+    400060: pCube4 2
+    400062: pCube4 3
+    400064: place3dTexture1
+    400066: place3dTexture2
+    400068: place3dTexture3
+    400070: Planken
+    400072: Rail
+    400074: Rail1
+    400076: Wiel
+    400078: Wiel 1
+    400080: Wiel 2
+    400082: Wiel 3
+    400084: Wiel 4
+    400086: Wiel3
+    400088: Wiel3 1
+    400090: Wiel3 2
+    400092: Wiel3 3
+    400094: Wiel4
+    400096: Wiel4 1
+    400098: Wiel4 2
+    400100: Wiel4 3
+    400102: Wiel5
+    400104: Wiel6
+    400106: Wiel7
+    400108: Wielen
+    2300000: Basis
+    2300002: Binnenkant
+    2300004: Binnenkant 1
+    2300006: Binnenkant 2
+    2300008: Binnenkant 3
+    2300010: Binnenkant1
+    2300012: Binnenkant1 1
+    2300014: Binnenkant1 2
+    2300016: Binnenkant1 3
+    2300018: Deur
+    2300020: Deur1
+    2300022: Hendel
+    2300024: Hendel1
+    2300026: pCube3
+    2300028: pCube3 1
+    2300030: pCube3 2
+    2300032: pCube3 3
+    2300034: pCube4
+    2300036: pCube4 1
+    2300038: pCube4 2
+    2300040: pCube4 3
+    2300042: Planken
+    2300044: Rail
+    2300046: Rail1
+    2300048: Wiel 1
+    2300050: Wiel 2
+    2300052: Wiel 3
+    2300054: Wiel 4
+    2300056: Wiel3
+    2300058: Wiel3 1
+    2300060: Wiel3 2
+    2300062: Wiel3 3
+    2300064: Wiel4
+    2300066: Wiel4 1
+    2300068: Wiel4 2
+    2300070: Wiel4 3
+    3300000: Basis
+    3300002: Binnenkant
+    3300004: Binnenkant 1
+    3300006: Binnenkant 2
+    3300008: Binnenkant 3
+    3300010: Binnenkant1
+    3300012: Binnenkant1 1
+    3300014: Binnenkant1 2
+    3300016: Binnenkant1 3
+    3300018: Deur
+    3300020: Deur1
+    3300022: Hendel
+    3300024: Hendel1
+    3300026: pCube3
+    3300028: pCube3 1
+    3300030: pCube3 2
+    3300032: pCube3 3
+    3300034: pCube4
+    3300036: pCube4 1
+    3300038: pCube4 2
+    3300040: pCube4 3
+    3300042: Planken
+    3300044: Rail
+    3300046: Rail1
+    3300048: Wiel 1
+    3300050: Wiel 2
+    3300052: Wiel 3
+    3300054: Wiel 4
+    3300056: Wiel3
+    3300058: Wiel3 1
+    3300060: Wiel3 2
+    3300062: Wiel3 3
+    3300064: Wiel4
+    3300066: Wiel4 1
+    3300068: Wiel4 2
+    3300070: Wiel4 3
+    4300000: Hendel
+    4300002: Deur
+    4300004: Deur1
+    4300006: Hendel1
+    4300008: Basis
+    4300010: Wiel
+    4300012: Binnenkant
+    4300014: pCube3
+    4300016: pCube4
+    4300018: Wiel3
+    4300020: Binnenkant1
+    4300022: Wiel4
+    4300024: Wiel
+    4300026: Binnenkant
+    4300028: pCube3
+    4300030: pCube4
+    4300032: Wiel3
+    4300034: Binnenkant1
+    4300036: Wiel4
+    4300038: Wiel
+    4300040: Binnenkant
+    4300042: pCube3
+    4300044: pCube4
+    4300046: Wiel3
+    4300048: Binnenkant1
+    4300050: Wiel4
+    4300052: Wiel
+    4300054: Binnenkant
+    4300056: pCube3
+    4300058: pCube4
+    4300060: Wiel3
+    4300062: Binnenkant1
+    4300064: Wiel4
+    4300066: Rail
+    4300068: Rail1
+    4300070: Planken
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
